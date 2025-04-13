@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+Allow: /kldabt
+Sitemap: /sitemap.xml
+
+User-agent: Yandex
+Disallow: /*/amp
+
+User-agent: Googlebot
+Disallow: /*/turbo.rss
