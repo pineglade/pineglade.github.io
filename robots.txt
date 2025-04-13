@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /
+Allow: /kldabt
+Host: https://netbiblio.github.io
+Sitemap: https://netbiblio.github.io/sitemap.xml
+
+User-agent: Yandex
+Disallow: /*/amp
+
+User-agent: Googlebot
+Disallow: /*/turbo.rss
