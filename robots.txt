@@ -1,6 +1,8 @@
 User-agent: *
 Disallow: /
 Allow: /kldabt
+Disallow: /*/amp/robots.txt
+Disallow: /*/amp/sitemap.xml
 Host: https://netbiblio.github.io
 Sitemap: https://netbiblio.github.io/sitemap.xml
 
