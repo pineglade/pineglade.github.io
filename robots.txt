@@ -1,8 +1,8 @@
 User-agent: *
 Disallow: /*/amp/robots.txt
 Disallow: /*/amp/sitemap.xml
-Host: https://netbiblio.github.io
-Sitemap: https://netbiblio.github.io/sitemap.xml
+Host: https://pineglade.github.io
+Sitemap: https://pineglade.github.io/sitemap.xml
 
 User-agent: Yandex
 Disallow: /*/amp

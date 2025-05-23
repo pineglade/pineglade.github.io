@@ -1,6 +1,6 @@
 {
-	"name": "Netbiblio",
-	"short_name": "Netbiblio",
+	"name": "Интернет-издательство «Сосновая Поляна»",
+	"short_name": "Сосновая Поляна",
 	"icons": [
 		{
 			"src": "/web-app-manifest-192x192.png",
