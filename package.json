@@ -1,0 +1,26 @@
+{
+	"browserslist": [
+		"> 0.2%",
+		"last 6 version"
+	],
+	"devDependencies": {
+		"pineglade-tools": "0.1.6"
+	},
+	"name": "pineglade",
+	"pre-commit": [
+		"lint-format"
+	],
+	"private": true,
+	"scripts": {
+		"build": "npm run check && vite build && cross-env AMP=1 vite build",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"dev": "svelte-kit sync && vite dev",
+		"dev:amp": "svelte-kit sync && cross-env AMP=1 vite dev",
+		"lint": "npm run check && eslint . && stylelint \"**/*.{scss,svelte}\" && prettier --check .",
+		"lint-format": "npm run check && eslint . --fix && stylelint \"**/*.{scss,svelte}\" --fix && prettier --write .",
+		"postinstall": "svelte-kit sync",
+		"start": "sirv build",
+		"upgrade": "node node_modules/pineglade-tools/configs/upgrade && svelte-kit sync"
+	},
+	"type": "module"
+}

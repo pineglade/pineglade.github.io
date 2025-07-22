@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /amp/robots.txt
+Disallow: /amp/sitemap.xml
+Host: https://pineglade.github.io
+Sitemap: https://pineglade.github.io/sitemap.xml
+
+User-agent: Yandex
+Disallow: /amp
+
+User-agent: Googlebot
+Disallow: /turbo.rss

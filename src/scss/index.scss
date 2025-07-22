@@ -1,0 +1,21 @@
+@use "pineglade-tools/scss/global";
+
+@include font-face("Georgia", "georgia", 400, (normal, italic));
+@include font-face("TT Polls", "tt-polls");
+@include font-face("Times New Roman", "times-new-roman");
+@include font-face("Verdana", "verdana", (400, 700), (normal, italic));
+
+body {
+	--color-white: #ffffff;
+
+	@include icons(("toc"));
+}
+
+main {
+	max-width: $breakpoint-lg;
+}
+
+time {
+	display: block;
+	text-align: right;
+}
